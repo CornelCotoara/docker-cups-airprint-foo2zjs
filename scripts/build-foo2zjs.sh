@@ -1,6 +1,5 @@
 #!/bin/bash
-wget -O foo2zjs.tar.gz http://foo2zjs.rkkda.com/foo2zjs.tar.gz &&
-	tar zxf foo2zjs.tar.gz &&
+	git clone https://github.com/koenkooi/foo2zjs.git &&
 	cd foo2zjs &&
 	make &&
 	./getweb all &&
