@@ -2,7 +2,7 @@ version: '3.8'
 services:
   cups-airprint-foo2zjs:
     container_name: cups-airprint-foo2zjs
-    image: cups-airprint-foo2zjs
+    image: ghcr.io/cornelcotoara/docker-cups-airprint-foo2zjs:master
     restart: unless-stopped
     network_mode: host
     environment:
