@@ -2,7 +2,7 @@
 	git -c http.sslVerify=false clone https://github.com/koenkooi/foo2zjs.git &&
 	cd foo2zjs &&
 	make &&
-	# ./getweb all && # already available via git clone
+	./getweb 1020
 	make install &&
 	make install-hotplug &&
 	cd .. &&
