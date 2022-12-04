@@ -10,7 +10,7 @@ RUN apt update && apt install -y --no-install-recommends --no-install-suggests \
 	build-essential \
 	tix \	
 	groff \
-	wget \
+	git \
 	dc \
 	vim
 
