@@ -1,5 +1,5 @@
 #!/bin/bash
-	git clone https://github.com/koenkooi/foo2zjs.git &&
+	git -c http.sslVerify=false clone https://github.com/koenkooi/foo2zjs.git &&
 	cd foo2zjs &&
 	make &&
 	./getweb all &&
