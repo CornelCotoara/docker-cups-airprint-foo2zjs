@@ -1,5 +1,5 @@
 #!/bin/bash
-inotifywait -m -e close_write,moved_to,create /hp1020 |
+inotifywait -m -e attrib /hp1020 |
 	while read -r directory events filename; do
 		if [ "$filename" = "cat_fw" ]; then
 			./etc/hotplug/usb/hplj1020
