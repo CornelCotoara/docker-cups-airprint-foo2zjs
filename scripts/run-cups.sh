@@ -20,4 +20,6 @@ fi
 cp /config/printers.conf /etc/cups/printers.conf
 
 /scripts/printer-update.sh &
+/etc/hotplug/usb/hplj1020 &
+
 exec /usr/sbin/cupsd -f
