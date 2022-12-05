@@ -6,7 +6,7 @@ RUN apt update && apt install -y --no-install-recommends --no-install-suggests \
 	cups-pdf \
 	inotify-tools \
 	python3-cups \
-	avahi-daemon \
+#	avahi-daemon \  # uncomment if you need avahi!
 	build-essential \
 	tix \	
 	groff \
